@@ -18,7 +18,9 @@ import requests
 
 
 
-folder = '/Users/tair/Freelance/anti_scam/test'
+# folder = '/Users/tair/Freelance/anti_scam/test'
+
+folder = 'C:\Test'
 files = [f for f in os.listdir(folder)]
 print(files)
 for filename in os.listdir(folder):
